@@ -15,10 +15,12 @@ img.cake-modal-img {
 .show-modal {
     transform: translate(-50%, -50%)scale(1);
     width: 90%;
-    top: 40%;
+    /* top: 33%; */
+    height: fit-content;
+    padding-bottom: 4rem;
 }
   body {
-    background-color: lightgreen;
+    /* background-color: lightgreen; */
   }
 #page-1 {
 	flex-wrap: wrap;
@@ -32,9 +34,9 @@ header.about-header {
     height: fit-content;
 }
 .intro-item.intro-content-wrapper {
-    height: 90vh;
+    height: 100vh;
     border-radius: 0;
-    background: linear-gradient(360deg, var(--p-clr), white 39%);
+    background: white;
 }
 header.cake-modal-name {
     color: var(--p-clr);
@@ -80,13 +82,13 @@ div#page-21 {
     display: flex;
     font-size: 1rem;
     flex-direction: row;
-    height: fit-content;
+    height: 100%;
     padding: 1rem;
     align-items: center;
     flex-wrap: wrap;
     justify-content: center;
     align-content: center;
-    bottom: 0;
+    bottom: 0%;
     background: #0000006b;
 }
 .arrow-right::before,

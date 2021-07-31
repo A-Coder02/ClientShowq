@@ -92,13 +92,12 @@ h1.cake-flickity-header {
 }
 .flickity-button {
     position: absolute;
-    background: none;
+    background: none!important;
     border: none;
-    color: var(--s-clr);
+    color: var(--s-clr)!important;
     border-radius: 10px !important;
-    /* border: 2px var(--s-clr) solid !important; */
+    border: 2px var(--s-clr) solid !important;
 }
-
 .carousel-cell.is-selected{transition:0.7s;}
 .carousel-cell.is-selected::after {
     position: absolute;
