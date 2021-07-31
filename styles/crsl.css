@@ -71,9 +71,9 @@
 }
 h1.cake-flickity-header {
     position: relative;
-    right: 0;
+    /* right: 0; */
     /* top: 20%; */
-    color: var(--p-clr);
+    color: #ffffff;
     width: fit-content;
     margin-left: auto;
     text-align: right;

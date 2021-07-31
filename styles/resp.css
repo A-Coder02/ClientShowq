@@ -44,6 +44,12 @@ header.cake-modal-name {
     position: relative;
     z-index: 0;
 }
+.product-item-wrapper {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(230px,1fr));
+    grid-template-rows: repeat(2, 1fr);
+    grid-auto-rows: 1fr;
+}
 .cake-flickity-wrapper{
 	overflow:hidden;
 }
@@ -143,5 +149,31 @@ header.about-header {
     top: -70%;
     right: 0%;
 }
+h1.cake-flickity-header {
+    position: relative;
+    /* right: 0; */
+    /* top: 20%; */
+    color: #ffffff;
+    width: fit-content;
+    margin-left: auto;
+    text-align: right;
+    padding: 1rem;
+    background: var(--s-clr);
+    border-radius: 0;
+    font-size: 4rem;
+    line-height: 1.5;
+}
+.grid-cake-wrapper h1 {
+    position: relative;
+    left: 0;
+    color: #ffffff;
+    width: fit-content;
+    text-align: right;
+    padding: 1rem;
+    background: var(--s-clr);
+    border-radius: 0 0;
+    font-size: 4rem;
+    text-align: start;
+    line-height: 1.5;
 }
 }

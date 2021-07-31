@@ -11,12 +11,10 @@ let cakePrices = document.querySelectorAll('.cake-price');
 let cakePrice = document.querySelector('.modal-cake-price');
 
 const showModal = function() {
-	modal.classList.add('show-modal');
+		modal.classList.add('show-modal');
 		overlay.classList.remove('hidden');
-		
 		CakeName.textContent = CakeNameS[i].textContent;
 		console.log(CakeName.textContent);
-		
 }
 const closeModal = function () {
 	modal.classList.remove('show-modal');
